@@ -4,6 +4,14 @@
 % A function must be saved as its own file with .m extension
 % A function must have the same file name as the function defined in it.
 
+% General format of a function:
+function [out1, out2] = function_name(in1, in2)
+    % FUNCTION_NAME Function description
+    
+    % This section below is called the body of the function
+    out1= something calculated using inputs
+    out2= something else
+end
 
 
 
